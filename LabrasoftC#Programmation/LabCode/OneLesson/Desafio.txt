@@ -1,0 +1,27 @@
+Desafio 1: Calculadora Simples
+Crie um programa que simule uma calculadora simples. Peça ao usuário que insira dois números e escolha uma operação (adição, subtração, multiplicação ou divisão). 
+Em seguida, exiba o resultado da operação escolhida.
+
+Desafio 2: Conversão de Temperatura
+Crie um programa que permita ao usuário converter uma temperatura de Celsius para Fahrenheit ou vice-versa. Peça ao usuário que insira a temperatura e a unidade (C ou F) 
+e realize a conversão.
+
+Desafio 3: Média de Notas
+Solicite ao usuário que insira as notas de três provas. Calcule a média das notas e determine se o aluno foi aprovado (média maior ou igual a 6) ou reprovado (média menor que 6).
+
+Desafio 4: Calculadora de Juros Simples
+Desenvolva um programa que calcule os juros simples de um empréstimo. Peça ao usuário que insira o valor do empréstimo, a taxa de juros e o período de tempo. Em seguida, calcule 
+e exiba o montante total a ser pago.
+
+Desafio 5: Verificação de Par ou Ímpar
+Crie um programa que peça ao usuário para digitar um número inteiro. Em seguida, determine se o número é par ou ímpar e exiba o resultado.
+
+Desafio 6: Cálculo do Índice de Massa Corporal (IMC)
+Peça ao usuário que insira seu peso (em quilogramas) e altura (em metros). Calcule o Índice de Massa Corporal (IMC) usando a fórmula IMC = peso / (altura * altura) 
+e exiba a categoria de peso correspondente (abaixo do peso, peso normal, sobrepeso, etc.).
+
+Desafio 7: Números Primos
+Crie um programa que determine se um número inserido pelo usuário é primo ou não. Um número primo é aquele que só é divisível por 1 e por ele mesmo.
+
+Desafio 8: Calculadora de Fatorial
+Solicite ao usuário que insira um número inteiro positivo e calcule o fatorial desse número. O fatorial de um número é o produto de todos os inteiros positivos de 1 até o número em questão.
