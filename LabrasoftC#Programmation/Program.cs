@@ -1,3 +1,3 @@
-﻿
-Console.WriteLine("Hello, World!");
+﻿using LabrasoftC_Programmation.LabCode.Questions;
 
+Posto.CalculatorPrice();
