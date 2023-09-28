@@ -1,3 +1,5 @@
 ﻿using LabrasoftC_Programmation.LabCode.Questions;
 
-Posto.CalculatorPrice();
+//Pratice.CalculatorPrice();
+Pratice.QuarterbackCalc();
+//Pratice.Maximization();
