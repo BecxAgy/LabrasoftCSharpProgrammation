@@ -57,7 +57,7 @@ ou um símbolo (qualquer outro caracter, que não uma letra ou número).*/
             char c = Console.ReadKey().KeyChar;
             c = char.ToLower(c);
             Console.WriteLine(vectorVowel.Length);
-
+            //ENTRE 65 E 97
             if(c >= 'a' &&  c <= 'z')
             {
                 for(int i = 0; i < vectorVowel.Length; i++)
@@ -83,5 +83,16 @@ ou um símbolo (qualquer outro caracter, que não uma letra ou número).*/
                 Console.WriteLine("é especial");
             }
         }
+
+        /*Escreva um programa em C/C# que solicita ao usuário que digite 5 caracteres. Em seguida, o programa 
+     * deve contar quantas vogais, consoantes, números e caracteres especiais foram inseridos e exibir cada
+     * um deles. Considere que os caracteres especiais são quaisquer caracteres que não são letras ou números.*/
+
+        public static void CountCharType()
+        {
+
+        }
     }
+
+    
 }
