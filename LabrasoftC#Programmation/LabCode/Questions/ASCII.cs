@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.ConstrainedExecution;
+using System.Runtime.Intrinsics.X86;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -84,13 +86,41 @@ ou um símbolo (qualquer outro caracter, que não uma letra ou número).*/
             }
         }
 
-        /*Escreva um programa em C/C# que solicita ao usuário que digite 5 caracteres. Em seguida, o programa 
-     * deve contar quantas vogais, consoantes, números e caracteres especiais foram inseridos e exibir cada
-     * um deles. Considere que os caracteres especiais são quaisquer caracteres que não são letras ou números.*/
-
-        public static void CountCharType()
+        //    1- Dado dois arrays de números inteiros com 10 elementos imprima os números do primeiro array que não estão
+        //presentes no segundo array.Lembrando que os números não podem ser repetidos no vetor 1 e vetor 2.
+        public static void CaracterType3()
         {
+            //um for para olhar para cada posição do vetor 1 
+            int[] vetor1 = { 2, 3, 4, 5, 6, 12, 1, 23, 11, 32 };
+            int[] vetor2 = { 2, 31, 4, 51, 16, 12, 1, 23, 111, 32 };
 
+            //outro for para andar pelas posições seguintes
+
+            //um if para verificar se o elemento do vetor 1 está no vetor 2
+            int[] vetorDiff = new int[10];
+
+            bool igual;
+            int d = 0;
+            for (int i = 0;i < 10;i++)
+            {
+                igual = false;
+                for (int j = 0; j<10; j++)
+                {
+                    if (vetor1[i] == vetor2[j])
+                    {
+                        igual = true;
+                        break;
+                    }
+                }
+                if (!igual)
+                {
+                    vetorDiff[d] = vetor1[i];
+                    Console.WriteLine(vetorDiff[d]);
+                    d++;
+                }
+            }
+
+            
         }
     }
 
